@@ -29,18 +29,15 @@ incident-response-automation/
 ├── dashboard.py # Streamlit dashboard
 └── README.md
 
--
-
+---
 ## Screenshots
 
 ### Telegram Alert
 ![Telegram Alert](./placeholder_telegram_alert.png)  
 
-
 ### Streamlit Dashboard
 ![Dashboard](./placeholder_dashboard.png)  
-
--
+---
 How It Works:
 The tool reads logs from logs/security_logs.txt.
 It counts failed login attempts per IP.
