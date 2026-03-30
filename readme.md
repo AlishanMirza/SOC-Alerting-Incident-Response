@@ -36,11 +36,11 @@ incident-response-automation/
 
 ### Telegram Alert
 ![Telegram Alert](./placeholder_telegram_alert.png)  
-![alt text](image-1.png)
+(image-1.png)
 
 ### Streamlit Dashboard
 ![Dashboard](./placeholder_dashboard.png)  
-![alt text](image.png)
+(image.png)
 
 ---
 
