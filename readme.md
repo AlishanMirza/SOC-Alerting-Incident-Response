@@ -44,16 +44,9 @@ incident-response-automation/
 
 ---
 
-How It Works
+How It Works:
 The tool reads logs from logs/security_logs.txt.
 It counts failed login attempts per IP.
 If the number of failed attempts exceeds the threshold, an incident report is generated in incident_reports/.
 A Telegram alert is sent to notify about the incident.
 The Streamlit dashboard visualizes all recorded incidents.
-Customization
-Adjust the THRESHOLD variable in monitor.py to change detection sensitivity.
-Extend the tool to include additional alert channels such as email or Slack.
-Enhance the dashboard with charts, graphs, or attacker geolocation.
-Resume / Portfolio Description
-
-Developed a Python-based SOC automation tool that monitors authentication logs, detects brute-force attacks, generates incident reports, and sends real-time alerts via Telegram, with a Streamlit dashboard for visualization.
